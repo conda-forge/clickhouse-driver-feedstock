@@ -14,9 +14,8 @@ Summary: Python driver with native interface for ClickHouse
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/clickhouse-driver-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/clickhouse-driver-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/clickhouse-driver-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/clickhouse-driver-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/clickhouse-driver-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/clickhouse-driver-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/clickhouse-driver-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/clickhouse-driver-feedstock)
 
 Current release info
 ====================
