@@ -12,15 +12,14 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1000
   noarch: python
+  number: 5
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
   host:
     - python
     - pip
-    - setuptools
 
   run:
     - python
