@@ -1,6 +1,6 @@
 {% set name = "clickhouse-driver" %}
-{% set version = "0.0.14" %}
-{% set sha256 = "7c6d2180782306272a5f3f19d163f3a6a71b5cfcd35550336ca812097c97cb86" %}
+{% set version = "0.0.15" %}
+{% set sha256 = "765bbb5b26432f455afdb20ece8d5ff9c579893ee3a876967e58acc174f05bee" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 6
+  number: 0
   script: "pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
