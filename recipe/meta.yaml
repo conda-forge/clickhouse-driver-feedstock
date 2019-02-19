@@ -1,6 +1,6 @@
 {% set name = "clickhouse-driver" %}
-{% set version = "0.0.17" %}
-{% set sha256 = "1b94697c085491c234bdc4a33f386bf7c0de917dbd3db033deb0d02709f10374" %}
+{% set version = "0.0.18" %}
+{% set sha256 = "03b2cdefc8162c01869deeeb0b10d8a0d7260b6aeb05c50c0ca411244274507c" %}
 
 package:
   name: {{ name|lower }}
