@@ -114,6 +114,9 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@cpcloud](https://github.com/cpcloud/)
 * [@kszucs](https://github.com/kszucs/)
+* [@xhochy](https://github.com/xhochy/)
+* [@xmnlab](https://github.com/xmnlab/)
 * [@xzkostyan](https://github.com/xzkostyan/)
 
