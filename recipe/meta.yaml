@@ -21,6 +21,7 @@ requirements:
   host:
     - pip
     - cython
+    - python
 
   run:
     - python
