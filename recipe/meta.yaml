@@ -44,6 +44,7 @@ about:
   license: MIT
   summary: 'Python driver with native interface for ClickHouse'
   license_family: MIT
+  license_file: LICENSE
 
 extra:
   recipe-maintainers:
