@@ -39,6 +39,10 @@ test:
     - clickhouse_driver.settings
     - clickhouse_driver.streams
     - clickhouse_driver.util
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://github.com/mymarilyn/clickhouse-driver
