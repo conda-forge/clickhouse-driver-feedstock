@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
@@ -27,6 +27,8 @@ requirements:
     - python
     - six
     - pytz
+    - tzlocal
+    - ipaddress  # [py27]
     - enum34  # [py27]
 
 test:
@@ -37,6 +39,10 @@ test:
     - clickhouse_driver.settings
     - clickhouse_driver.streams
     - clickhouse_driver.util
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://github.com/mymarilyn/clickhouse-driver
