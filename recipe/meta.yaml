@@ -1,6 +1,6 @@
 {% set name = "clickhouse-driver" %}
-{% set version = "0.1.3" %}
-{% set sha256 = "1a9a0815bddc0082d2155c1803c4ae79b1fbe28ae276fe9703650208acbc5ec3" %}
+{% set version = "0.1.4" %}
+{% set sha256 = "9613754de5d2cdba270ad31f53161775594df20d8da7608d8158f2cc63aab850" %}
 
 package:
   name: {{ name|lower }}
@@ -12,8 +12,8 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
-  script: "{{ PYTHON }} -m pip install . -vv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   build:
@@ -47,7 +47,7 @@ test:
 about:
   home: https://github.com/mymarilyn/clickhouse-driver
   license: MIT
-  summary: 'Python driver with native interface for ClickHouse'
+  summary: Python driver with native interface for ClickHouse
   license_family: MIT
   license_file: LICENSE
 
