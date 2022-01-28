@@ -1,15 +1,13 @@
 {% set name = "clickhouse-driver" %}
 {% set version = "0.2.2" %}
-{% set sha256 = "d16cfae6d3085854ebdef47a7920ce2ef839bde44c60a64d7963a8c9834d7440" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  sha256: d16cfae6d3085854ebdef47a7920ce2ef839bde44c60a64d7963a8c9834d7440
 
 build:
   number: 1
@@ -31,8 +29,6 @@ requirements:
     - six
     - pytz
     - tzlocal
-    - ipaddress  # [py27]
-    - enum34  # [py27]
 
 test:
   imports:
