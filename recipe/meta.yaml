@@ -1,5 +1,5 @@
 {% set name = "clickhouse-driver" %}
-{% set version = "0.2.3" %}
+{% set version = "0.2.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 519c591a96976bb136b1e82cdaf91385b6dc1f7d3e717d95c4f32adec62fd119
+  sha256: bbbc4180bc645d5810c7253e2b59c9381953f8b9bbbac34f0c06103d7c0c56dc
 
 build:
   number: 0
