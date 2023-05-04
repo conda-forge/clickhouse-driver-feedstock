@@ -1,11 +1,11 @@
-About clickhouse-driver
-=======================
+About clickhouse-driver-feedstock
+=================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/clickhouse-driver-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/mymarilyn/clickhouse-driver
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/clickhouse-driver-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python driver with native interface for ClickHouse
 
