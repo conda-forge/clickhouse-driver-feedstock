@@ -1,5 +1,5 @@
 {% set name = "clickhouse-driver" %}
-{% set version = "0.2.7" %}
+{% set version = "0.2.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 299cfbe6d561955d88eeab6e09f3de31e2f6daccc6fdd904a59e46357d2d28d9
+  sha256: 844b3080e558acbacd42ee569ec83ca7aaa3728f7077b9314c8d09aaa393d752
 
 build:
   number: 0
@@ -19,6 +19,7 @@ requirements:
     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
     - cython                                 # [build_platform != target_platform]
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
   host:
     - pip
     - cython
