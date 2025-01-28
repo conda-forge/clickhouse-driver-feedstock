@@ -10,12 +10,11 @@ source:
   sha256: 050ea4870ead993910b39e7fae965dc1c347b2e8191dcd977cd4b385f9e19f87
 
 build:
-  number: 1
+  number: 2
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   build:
-  number: 2
     - python                                 # [build_platform != target_platform]
     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
     - cython                                 # [build_platform != target_platform]
